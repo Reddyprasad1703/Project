@@ -1,0 +1,60 @@
+{% load static %}
+<html>
+<head>
+<title>Sentimental Analysis on AI Chatbot Application in Psychiatric Treatment and Suicide Prevention</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="{% static 'default.css' %}" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+<div id="wrapper">
+  <div id="header">
+    <div id="logo">
+      <h1><font color="White" size=6>Sentimental Analysis on AI Chatbot Application in Psychiatric Treatment and Suicide Prevention</font></h1>
+	  <marquee><font color="pink" size=4>Sentimental Analysis on AI Chatbot Application in Psychiatric Treatment and Suicide Prevention</font></marquee>
+    </div>
+   
+  
+    </div>
+  </div>
+  <div id="menu">
+    <ul>
+      <li><a href="{% url 'MyChatBot' %}">Home</a></li>
+      <li><a href="{% url 'User' %}">User</a></li>
+      <li><a href="{% url 'Register' %}">Register Here</a></li>
+      
+   </ul>
+  </div>
+  <div id="page">
+   <div id="content">
+      <div class="post">
+        <div class="title">
+          <h2>Chatbot Application</h2>
+         </div>
+        <div class="entry">
+		 <br/><br/><br/>
+{{ data }}
+	 
+	 <br>
+          <p><img src="{% static 'images/images.JPG' %}" alt="" width="890" height="200" class="left" /><p></p><font size="4" color="white">
+          <center><br/>About Chatbot</center></font></p>
+          <p><font size="" color="white">Chatbot can be described as software that can chat with people using artificial intelligence. Chatbots
+are generally used to respond quickly to users.</p>
+
+ <p><font size="" color="white">Chatbots, a common name for automated conversational interfaces, present a new way for individuals
+to interact with computer systems. Traditionally, to get a question answered by a software program
+involves using a search engine, or filling out a form. A chatbot allows a user to simply ask questions in
+the same manner that they would address a human. There are many well-known voice-based chatbots
+currently available in the market: Google Assistant, Alexa and Siri. Chatbots are currently being adopted
+at a high rate on computer chat platforms.</p>
+          </div>
+        
+      </div>
+     
+       
+       
+    </div>
+    
+  </div>
+
+</body>
+</html>
